@@ -47,7 +47,12 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Timer
                 _timer.CurrentState.LoadingTimes = TimeSpan.FromMilliseconds(loadTimes);
             }
 
-            ICampaignArea campaignArea = CampaignArea.Parse(areaId, encounteredCampaignAreas);
+            try {
+                ICampaignArea campaignArea = CampaignArea.Parse(areaId, encounteredCampaignAreas);
+            } catch (Exception e) {
+                Log.Error(e);
+                return;
+            }
 
             if (_settings.AutoSplitEnabled)
             {

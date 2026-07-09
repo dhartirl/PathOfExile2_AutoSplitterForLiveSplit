@@ -176,6 +176,14 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
             IsMandatory = true
         };
         
+        public static readonly CampaignAreaDto TheHalaniGatesBlocked = new CampaignAreaDto
+        {
+            AreaId = "G2_3a",
+            AreaName = "The Halani Gates (blocked)",
+            IconType = EnIconType.Waypoint,
+            IsMandatory = true
+        };
+        
         public static readonly CampaignAreaDto TheHalaniGates = new CampaignAreaDto
         {
             AreaId = "G2_3",
@@ -286,14 +294,6 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         {
             AreaId = "G2_12_1",
             AreaName = "The Dreadnought",
-            IconType = EnIconType.Waypoint,
-            IsMandatory = true
-        };
-        
-        public static readonly CampaignAreaDto DreadnoughtVanguard = new CampaignAreaDto
-        {
-            AreaId = "G2_12_2",
-            AreaName = "Dreadnought Vanguard",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -468,7 +468,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
             AreaId = "G4_1_1",
             AreaName = "Isle of Kin",
             IconType = EnIconType.Waypoint,
-            IsMandatory = false
+            IsMandatory = true
         };
         
         public static readonly CampaignAreaDto VolcanicWarrens = new CampaignAreaDto
@@ -476,7 +476,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
             AreaId = "G4_1_2",
             AreaName = "Volcanic Warrens",
             IconType = EnIconType.Waypoint,
-            IsMandatory = false
+            IsMandatory = true
         };
         
         public static readonly CampaignAreaDto EyeOfHinekora = new CampaignAreaDto
@@ -508,7 +508,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
             AreaId = "G4_2_1",
             AreaName = "Kedge Bay",
             IconType = EnIconType.Waypoint,
-            IsMandatory = false
+            IsMandatory = true
         };
         
         public static readonly CampaignAreaDto JourneysEnd = new CampaignAreaDto
@@ -516,7 +516,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
             AreaId = "G4_2_2",
             AreaName = "Journey's End",
             IconType = EnIconType.Waypoint,
-            IsMandatory = false
+            IsMandatory = true
         };
         
         public static readonly CampaignAreaDto AbandonedPrison = new CampaignAreaDto
@@ -680,7 +680,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
             AreaId = "P2_2",
             AreaName = "Pools of Khatal",
             IconType = EnIconType.Waypoint,
-            IsMandatory = false
+            IsMandatory = true
         };
         
         public static readonly CampaignAreaDto SelKhariSanctuary = new CampaignAreaDto
