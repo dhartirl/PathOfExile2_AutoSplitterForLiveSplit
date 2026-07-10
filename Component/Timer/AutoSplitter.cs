@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using LiveSplit.Model;
+using LiveSplit.Options;
 using LiveSplit.PathOfExile2AutoSplitter.Component.ClientLog;
 using LiveSplit.PathOfExile2AutoSplitter.Component.Enums;
 using LiveSplit.PathOfExile2AutoSplitter.Component.Settings;
@@ -47,8 +48,10 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Timer
                 _timer.CurrentState.LoadingTimes = TimeSpan.FromMilliseconds(loadTimes);
             }
 
+            ICampaignArea campaignArea;
+            
             try {
-                ICampaignArea campaignArea = CampaignArea.Parse(areaId, encounteredCampaignAreas);
+                campaignArea = CampaignArea.Parse(areaId, encounteredCampaignAreas);
             } catch (Exception e) {
                 Log.Error(e);
                 return;
