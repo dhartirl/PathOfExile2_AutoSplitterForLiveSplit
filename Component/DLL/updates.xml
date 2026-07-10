@@ -8,7 +8,7 @@
             <change>Fixed an issue where AutoStart was preventing AutoSplit.</change>
         </changelog>
     </update>
-    <update version="1.0.1">
+    <update version="1.0.2">
         <files>
             <file path="LiveSplit.PathOfExile2AutoSplitter.dll" status="changed" />
             <file path="CampaignAreas.cs" status="changed" />
