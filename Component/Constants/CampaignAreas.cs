@@ -508,7 +508,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
             AreaId = "G4_2_1",
             AreaName = "Kedge Bay",
             IconType = EnIconType.Waypoint,
-            IsMandatory = true
+            IsMandatory = false
         };
         
         public static readonly CampaignAreaDto JourneysEnd = new CampaignAreaDto
@@ -516,7 +516,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
             AreaId = "G4_2_2",
             AreaName = "Journey's End",
             IconType = EnIconType.Waypoint,
-            IsMandatory = true
+            IsMandatory = false
         };
         
         public static readonly CampaignAreaDto AbandonedPrison = new CampaignAreaDto
@@ -688,7 +688,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
             AreaId = "P2_3",
             AreaName = "Sel Khari Sanctuary",
             IconType = EnIconType.Waypoint,
-            IsMandatory = false
+            IsMandatory = true
         };
         
         public static readonly CampaignAreaDto TheGalaiGates = new CampaignAreaDto
