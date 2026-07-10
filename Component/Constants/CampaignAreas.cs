@@ -292,8 +292,8 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         
         public static readonly CampaignAreaDto TheDreadnought = new CampaignAreaDto
         {
-            AreaId = "G2_12_1",
-            AreaName = "The Dreadnought",
+            AreaId = "G2_12",
+            AreaName = "Dreadnought",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -303,7 +303,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
             AreaId = "G2_13",
             AreaName = "Trial of the Sekhemas",
             IconType = EnIconType.InteriorWaypoint,
-            IsMandatory = true
+            IsMandatory = false
         };
         #endregion
         
@@ -449,7 +449,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
             AreaId = "G3_10_Airlock",
             AreaName = "The Temple of Chaos",
             IconType = EnIconType.InteriorWaypoint,
-            IsMandatory = true
+            IsMandatory = false
         };
         
         #endregion
@@ -540,7 +540,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
             AreaId = "G4_3_1",
             AreaName = "Whakapanu Island",
             IconType = EnIconType.Waypoint,
-            IsMandatory = true
+            IsMandatory = false
         };
         
         public static readonly CampaignAreaDto SingingCaverns = new CampaignAreaDto
@@ -548,7 +548,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
             AreaId = "G4_3_2",
             AreaName = "Singing Caverns",
             IconType = EnIconType.Waypoint,
-            IsMandatory = true
+            IsMandatory = false
         };
         
         public static readonly CampaignAreaDto ShrikeIsland = new CampaignAreaDto
